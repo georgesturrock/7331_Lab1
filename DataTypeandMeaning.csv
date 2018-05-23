@@ -1,0 +1,49 @@
+﻿Attribute,Type,Description
+yearID,int64,The professional baseball season.
+lgID,object,The league to which the team was a member during the specified year.
+teamID,object,Unique identifier for the professional baseball team.
+franchID,object,Unique identifier for the professional baseball franchise.
+divID,object,The division within the league to which the team belonged during the specified year.
+Rank,int64,The team's finishing rank in their division for the specified year.
+G,int64,The number of games played by the team during the specified year.
+Ghome,float64,The number of home games played by the team during the specified year.
+W,int64,Games won by the team during the year.
+L,int64,Games lost by the team during the year.
+DivWin,object,Binary indicator showing if the team won their division during the year.
+WCWin,object,Binary indicator showing if the team won a Wild Card Playoff game during the year.
+LgWin,object,Binary inidcator showing if the team won their league during the year.
+WSWin,object,Binary indicator showing if the team won the world series during the year.
+R,int64,Total runs scored by the team during the year.
+AB,int64,Total at bats by the team during the year.
+H,int64,Total hist by the team during the year.
+2B,int64,Total doubles by the team during the year.
+3B,int64,Total triples by the team during the year.
+HR,int64,Total home runs for the team during the year.
+BB,float64,Total bases on balls or walks by the team during the year.
+SO,float64,Total strikeouts by the team during the year.
+SB,float64,Total stolen bases by the team during the year.
+CS,float64,Total number of team runners caught stealing during the year.
+HBP,float64,Total number of team hitters hit by a pitch during the year.
+SF,float64,Total number of sacrifice flies by the team during the year.
+RA,int64,Total number of runs allowed by the team during the year.
+ER,int64,Total number of earned runs surrendured by the team during the year.
+ERA,int64,Total team earned run average for the year.
+CG,int64,Total number of complete games pitched by the team during the year.
+SHO,int64,Total number of shutouts pitched by the team during the year.
+SV,int64,Total number of saves recorded by the team during the year.
+IPouts,int64,Total outs pitched by the team during the year.  
+HA,int64,Total hits allowed by the team during the year.
+HRA,int64,Total home runs allowed by the team during the year.
+BBA,int64,Total bases on balls or walks allowed by the team during the year.
+SOA,int64,Total strikeouts by the team during the year.
+E,int64,Total errors by the team during the year.
+DP,int64,Total double plays by the team during the year.
+FP,float64,Aggregate fielding percentage by the team during the year.
+name,object,The full name of the team during the year.
+park,object,The name of the team's home ballpark during the year.
+attendance,float64,Total home attendance during the year.
+BPF,int64,The three year park factor for batters.
+PPF,int64,The three year park factor for hitters.
+teamIDBR,object,Team ID used by Baseball Reference.
+teamIDlahman45,object,Team ID used in the Lahman baseball database.
+teamIDretro,object,Team ID used by Retrosheet.
