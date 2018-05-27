@@ -1,4 +1,4 @@
-﻿﻿Attribute,Category,Type,DF_Type,Description
+﻿Attribute,Category,Type,DF_Type,Description
 yearID,Informational,Interval,int64,The professional baseball season.
 lgID,Informational,Nominal,object,The league to which the team was a member during the specified year.
 teamID,Informational,Nominal,object,Unique identifier for the professional baseball team.
@@ -13,20 +13,20 @@ DivWin,Informational,Nominal,object,Binary indicator showing if the team won the
 WCWin,Informational,Nominal,object,Binary indicator showing if the team won a Wild Card Playoff game during the year.
 LgWin,Informational,Nominal,object,Binary inidcator showing if the team won their league during the year.
 WSWin,Informational,Nominal,object,Binary indicator showing if the team won the world series during the year.
-R,Offense,Interval,int64,Total runs scored by the team during the year.
-AB,Offense,Interval,int64,Total at bats by the team during the year.
-H,Offense,Interval,int64,Total hist by the team during the year.
-2B,Offense,Interval,int64,Total doubles by the team during the year.
-3B,Offense,Interval,int64,Total triples by the team during the year.
-HR,Offense,Interval,int64,Total home runs for the team during the year.
-BB,Offense,Interval,float64,Total bases on balls or walks by the team during the year.
-SO,Offense,Interval,float64,Total strikeouts by the team during the year.
-SB,Offense,Interval,float64,Total stolen bases by the team during the year.
-CS,Offense,Interval,float64,Total number of team runners caught stealing during the year.
-HBP,Offense,Interval,float64,Total number of team hitters hit by a pitch during the year.
-SF,Offense,Interval,float64,Total number of sacrifice flies by the team during the year.
+R,Batting,Interval,int64,Total runs scored by the team during the year.
+AB,Batting,Interval,int64,Total at bats by the team during the year.
+H,Batting,Interval,int64,Total hist by the team during the year.
+2B,Batting,Interval,int64,Total doubles by the team during the year.
+3B,Batting,Interval,int64,Total triples by the team during the year.
+HR,Batting,Interval,int64,Total home runs for the team during the year.
+BB,Batting,Interval,float64,Total bases on balls or walks by the team during the year.
+SO,Batting,Interval,float64,Total strikeouts by the team during the year.
+SB,Batting,Interval,float64,Total stolen bases by the team during the year.
+CS,Batting,Interval,float64,Total number of team runners caught stealing during the year.
+HBP,Batting,Interval,float64,Total number of team hitters hit by a pitch during the year.
+SF,Batting,Interval,float64,Total number of sacrifice flies by the team during the year.
 RA,Pitching,Interval,int64,Total number of runs allowed by the team during the year.
-ER,Pitching,Interval,int64,Total number of earned runs surrendured by the team during the year.
+ER,Pitching,Interval,int64,Total number of earned runs surrendered by the team during the year.
 ERA,Pitching,Ratio,int64,Total team earned run average for the year.
 CG,Pitching,Interval,int64,Total number of complete games pitched by the team during the year.
 SHO,Pitching,Interval,int64,Total number of shutouts pitched by the team during the year.
@@ -36,9 +36,9 @@ HA,Pitching,Interval,int64,Total hits allowed by the team during the year.
 HRA,Pitching,Interval,int64,Total home runs allowed by the team during the year.
 BBA,Pitching,Interval,int64,Total bases on balls or walks allowed by the team during the year.
 SOA,Pitching,Interval,int64,Total strikeouts allowed by the team during the year.
-E,Pitching,Interval,int64,Total errors by the team during the year.
-DP,Pitching,Interval,int64,Total double plays by the team during the year.
-FP,Pitching,Ratio,float64,Aggregate fielding percentage by the team during the year.
+E,Fielding,Interval,int64,Total errors by the team during the year.
+DP,Fielding,Interval,int64,Total double plays by the team during the year.
+FP,Fielding,Ratio,float64,Aggregate fielding percentage by the team during the year.
 name,Informational,Nominal,object,The full name of the team during the year.
 park,Informational,Nominal,object,The name of the team's home ballpark during the year.
 attendance,Informational,Interval,float64,Total home attendance during the year.
