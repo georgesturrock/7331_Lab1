@@ -26,7 +26,7 @@ CS,Batting,Interval,float64,Total number of team runners caught stealing during 
 HBP,Batting,Interval,float64,Total number of team hitters hit by a pitch during the year.
 SF,Batting,Interval,float64,Total number of sacrifice flies by the team during the year.
 RA,Pitching,Interval,int64,Total number of runs allowed by the team during the year.
-ER,Pitching,Interval,int64,Total number of earned runs surrendured by the team during the year.
+ER,Pitching,Interval,int64,Total number of earned runs surrendered by the team during the year.
 ERA,Pitching,Ratio,int64,Total team earned run average for the year.
 CG,Pitching,Interval,int64,Total number of complete games pitched by the team during the year.
 SHO,Pitching,Interval,int64,Total number of shutouts pitched by the team during the year.
